@@ -1,0 +1,543 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://Scripts/main.gd" type="Script" id=1]
+[ext_resource path="res://Calligraphr-Regular.ttf" type="DynamicFontData" id=2]
+[ext_resource path="res://Resources/mens-ou1.ogg" type="AudioStream" id=3]
+[ext_resource path="res://Resources/flash1.ogg" type="AudioStream" id=4]
+[ext_resource path="res://Resources/scream1.ogg" type="AudioStream" id=5]
+[ext_resource path="res://Resources/tin1.ogg" type="AudioStream" id=6]
+
+[sub_resource type="DynamicFont" id=1]
+size = 48
+font_data = ExtResource( 2 )
+
+[sub_resource type="DynamicFont" id=2]
+size = 48
+font_data = ExtResource( 2 )
+
+[node name="main" type="Node2D"]
+script = ExtResource( 1 )
+
+[node name="Button0,0" type="Button" parent="."]
+margin_right = 64.0
+margin_bottom = 64.0
+custom_fonts/font = SubResource( 1 )
+
+[node name="Button0,1" type="Button" parent="."]
+margin_left = 64.0
+margin_right = 128.0
+margin_bottom = 64.0
+custom_fonts/font = SubResource( 2 )
+
+[node name="Button0,2" type="Button" parent="."]
+margin_left = 128.0
+margin_right = 192.0
+margin_bottom = 64.0
+custom_fonts/font = SubResource( 2 )
+
+[node name="Button0,3" type="Button" parent="."]
+margin_left = 192.0
+margin_right = 256.0
+margin_bottom = 64.0
+custom_fonts/font = SubResource( 2 )
+
+[node name="Button0,4" type="Button" parent="."]
+margin_left = 256.0
+margin_right = 320.0
+margin_bottom = 64.0
+custom_fonts/font = SubResource( 2 )
+
+[node name="Button0,5" type="Button" parent="."]
+margin_left = 320.0
+margin_right = 384.0
+margin_bottom = 64.0
+custom_fonts/font = SubResource( 2 )
+
+[node name="Button0,6" type="Button" parent="."]
+margin_left = 384.0
+margin_right = 448.0
+margin_bottom = 64.0
+custom_fonts/font = SubResource( 2 )
+
+[node name="Button0,7" type="Button" parent="."]
+margin_left = 448.0
+margin_right = 512.0
+margin_bottom = 64.0
+custom_fonts/font = SubResource( 2 )
+
+[node name="Button1,0" type="Button" parent="."]
+margin_top = 64.0
+margin_right = 64.0
+margin_bottom = 128.0
+custom_fonts/font = SubResource( 2 )
+
+[node name="Button1,1" type="Button" parent="."]
+margin_left = 64.0
+margin_top = 64.0
+margin_right = 128.0
+margin_bottom = 128.0
+custom_fonts/font = SubResource( 2 )
+
+[node name="Button1,2" type="Button" parent="."]
+margin_left = 128.0
+margin_top = 64.0
+margin_right = 192.0
+margin_bottom = 128.0
+custom_fonts/font = SubResource( 2 )
+
+[node name="Button1,3" type="Button" parent="."]
+margin_left = 192.0
+margin_top = 64.0
+margin_right = 256.0
+margin_bottom = 128.0
+custom_fonts/font = SubResource( 2 )
+
+[node name="Button1,4" type="Button" parent="."]
+margin_left = 256.0
+margin_top = 64.0
+margin_right = 320.0
+margin_bottom = 128.0
+custom_fonts/font = SubResource( 2 )
+
+[node name="Button1,5" type="Button" parent="."]
+margin_left = 320.0
+margin_top = 64.0
+margin_right = 384.0
+margin_bottom = 128.0
+custom_fonts/font = SubResource( 2 )
+
+[node name="Button1,6" type="Button" parent="."]
+margin_left = 384.0
+margin_top = 64.0
+margin_right = 448.0
+margin_bottom = 128.0
+custom_fonts/font = SubResource( 2 )
+
+[node name="Button1,7" type="Button" parent="."]
+margin_left = 448.0
+margin_top = 64.0
+margin_right = 512.0
+margin_bottom = 128.0
+custom_fonts/font = SubResource( 2 )
+
+[node name="Button2,0" type="Button" parent="."]
+margin_top = 128.0
+margin_right = 64.0
+margin_bottom = 192.0
+custom_fonts/font = SubResource( 2 )
+
+[node name="Button2,1" type="Button" parent="."]
+margin_left = 64.0
+margin_top = 128.0
+margin_right = 128.0
+margin_bottom = 192.0
+custom_fonts/font = SubResource( 2 )
+
+[node name="Button2,2" type="Button" parent="."]
+margin_left = 128.0
+margin_top = 128.0
+margin_right = 192.0
+margin_bottom = 192.0
+custom_fonts/font = SubResource( 2 )
+
+[node name="Button2,3" type="Button" parent="."]
+margin_left = 192.0
+margin_top = 128.0
+margin_right = 256.0
+margin_bottom = 192.0
+custom_fonts/font = SubResource( 2 )
+
+[node name="Button2,4" type="Button" parent="."]
+margin_left = 256.0
+margin_top = 128.0
+margin_right = 320.0
+margin_bottom = 192.0
+custom_fonts/font = SubResource( 2 )
+
+[node name="Button2,5" type="Button" parent="."]
+margin_left = 320.0
+margin_top = 128.0
+margin_right = 384.0
+margin_bottom = 192.0
+custom_fonts/font = SubResource( 2 )
+
+[node name="Button2,6" type="Button" parent="."]
+margin_left = 384.0
+margin_top = 128.0
+margin_right = 448.0
+margin_bottom = 192.0
+custom_fonts/font = SubResource( 2 )
+
+[node name="Button2,7" type="Button" parent="."]
+margin_left = 448.0
+margin_top = 128.0
+margin_right = 512.0
+margin_bottom = 192.0
+custom_fonts/font = SubResource( 2 )
+
+[node name="Button3,0" type="Button" parent="."]
+margin_top = 192.0
+margin_right = 64.0
+margin_bottom = 256.0
+custom_fonts/font = SubResource( 2 )
+
+[node name="Button3,1" type="Button" parent="."]
+margin_left = 64.0
+margin_top = 192.0
+margin_right = 128.0
+margin_bottom = 256.0
+custom_fonts/font = SubResource( 2 )
+
+[node name="Button3,2" type="Button" parent="."]
+margin_left = 128.0
+margin_top = 192.0
+margin_right = 192.0
+margin_bottom = 256.0
+custom_fonts/font = SubResource( 2 )
+
+[node name="Button3,3" type="Button" parent="."]
+margin_left = 192.0
+margin_top = 192.0
+margin_right = 256.0
+margin_bottom = 256.0
+custom_fonts/font = SubResource( 2 )
+
+[node name="Button3,4" type="Button" parent="."]
+margin_left = 256.0
+margin_top = 192.0
+margin_right = 320.0
+margin_bottom = 256.0
+custom_fonts/font = SubResource( 2 )
+
+[node name="Button3,5" type="Button" parent="."]
+margin_left = 320.0
+margin_top = 192.0
+margin_right = 384.0
+margin_bottom = 256.0
+custom_fonts/font = SubResource( 2 )
+
+[node name="Button3,6" type="Button" parent="."]
+margin_left = 384.0
+margin_top = 192.0
+margin_right = 448.0
+margin_bottom = 256.0
+custom_fonts/font = SubResource( 2 )
+
+[node name="Button3,7" type="Button" parent="."]
+margin_left = 448.0
+margin_top = 192.0
+margin_right = 512.0
+margin_bottom = 256.0
+custom_fonts/font = SubResource( 2 )
+
+[node name="Button4,0" type="Button" parent="."]
+margin_top = 256.0
+margin_right = 64.0
+margin_bottom = 320.0
+custom_fonts/font = SubResource( 2 )
+
+[node name="Button4,1" type="Button" parent="."]
+margin_left = 64.0
+margin_top = 256.0
+margin_right = 128.0
+margin_bottom = 320.0
+custom_fonts/font = SubResource( 2 )
+
+[node name="Button4,2" type="Button" parent="."]
+margin_left = 128.0
+margin_top = 256.0
+margin_right = 192.0
+margin_bottom = 320.0
+custom_fonts/font = SubResource( 2 )
+
+[node name="Button4,3" type="Button" parent="."]
+margin_left = 192.0
+margin_top = 256.0
+margin_right = 256.0
+margin_bottom = 320.0
+custom_fonts/font = SubResource( 2 )
+
+[node name="Button4,4" type="Button" parent="."]
+margin_left = 256.0
+margin_top = 256.0
+margin_right = 320.0
+margin_bottom = 320.0
+custom_fonts/font = SubResource( 2 )
+
+[node name="Button4,5" type="Button" parent="."]
+margin_left = 320.0
+margin_top = 256.0
+margin_right = 384.0
+margin_bottom = 320.0
+custom_fonts/font = SubResource( 2 )
+
+[node name="Button4,6" type="Button" parent="."]
+margin_left = 384.0
+margin_top = 256.0
+margin_right = 448.0
+margin_bottom = 320.0
+custom_fonts/font = SubResource( 2 )
+
+[node name="Button4,7" type="Button" parent="."]
+margin_left = 448.0
+margin_top = 256.0
+margin_right = 512.0
+margin_bottom = 320.0
+custom_fonts/font = SubResource( 2 )
+
+[node name="Button5,0" type="Button" parent="."]
+margin_top = 320.0
+margin_right = 64.0
+margin_bottom = 384.0
+custom_fonts/font = SubResource( 2 )
+
+[node name="Button5,1" type="Button" parent="."]
+margin_left = 64.0
+margin_top = 320.0
+margin_right = 128.0
+margin_bottom = 384.0
+custom_fonts/font = SubResource( 2 )
+
+[node name="Button5,2" type="Button" parent="."]
+margin_left = 128.0
+margin_top = 320.0
+margin_right = 192.0
+margin_bottom = 384.0
+custom_fonts/font = SubResource( 2 )
+
+[node name="Button5,3" type="Button" parent="."]
+margin_left = 192.0
+margin_top = 320.0
+margin_right = 256.0
+margin_bottom = 384.0
+custom_fonts/font = SubResource( 2 )
+
+[node name="Button5,4" type="Button" parent="."]
+margin_left = 256.0
+margin_top = 320.0
+margin_right = 320.0
+margin_bottom = 384.0
+custom_fonts/font = SubResource( 2 )
+
+[node name="Button5,5" type="Button" parent="."]
+margin_left = 320.0
+margin_top = 320.0
+margin_right = 384.0
+margin_bottom = 384.0
+custom_fonts/font = SubResource( 2 )
+
+[node name="Button5,6" type="Button" parent="."]
+margin_left = 384.0
+margin_top = 320.0
+margin_right = 448.0
+margin_bottom = 384.0
+custom_fonts/font = SubResource( 2 )
+
+[node name="Button5,7" type="Button" parent="."]
+margin_left = 448.0
+margin_top = 320.0
+margin_right = 512.0
+margin_bottom = 384.0
+custom_fonts/font = SubResource( 2 )
+
+[node name="Button6,0" type="Button" parent="."]
+margin_top = 384.0
+margin_right = 64.0
+margin_bottom = 448.0
+custom_fonts/font = SubResource( 2 )
+
+[node name="Button6,1" type="Button" parent="."]
+margin_left = 64.0
+margin_top = 384.0
+margin_right = 128.0
+margin_bottom = 448.0
+custom_fonts/font = SubResource( 2 )
+
+[node name="Button6,2" type="Button" parent="."]
+margin_left = 128.0
+margin_top = 384.0
+margin_right = 192.0
+margin_bottom = 448.0
+custom_fonts/font = SubResource( 2 )
+
+[node name="Button6,3" type="Button" parent="."]
+margin_left = 192.0
+margin_top = 384.0
+margin_right = 256.0
+margin_bottom = 448.0
+custom_fonts/font = SubResource( 2 )
+
+[node name="Button6,4" type="Button" parent="."]
+margin_left = 256.0
+margin_top = 384.0
+margin_right = 320.0
+margin_bottom = 448.0
+custom_fonts/font = SubResource( 2 )
+
+[node name="Button6,5" type="Button" parent="."]
+margin_left = 320.0
+margin_top = 384.0
+margin_right = 384.0
+margin_bottom = 448.0
+custom_fonts/font = SubResource( 2 )
+
+[node name="Button6,6" type="Button" parent="."]
+margin_left = 384.0
+margin_top = 384.0
+margin_right = 448.0
+margin_bottom = 448.0
+custom_fonts/font = SubResource( 2 )
+
+[node name="Button6,7" type="Button" parent="."]
+margin_left = 448.0
+margin_top = 384.0
+margin_right = 512.0
+margin_bottom = 448.0
+custom_fonts/font = SubResource( 2 )
+
+[node name="Button7,0" type="Button" parent="."]
+margin_top = 448.0
+margin_right = 64.0
+margin_bottom = 512.0
+custom_fonts/font = SubResource( 2 )
+
+[node name="Button7,1" type="Button" parent="."]
+margin_left = 64.0
+margin_top = 448.0
+margin_right = 128.0
+margin_bottom = 512.0
+custom_fonts/font = SubResource( 2 )
+
+[node name="Button7,2" type="Button" parent="."]
+margin_left = 128.0
+margin_top = 448.0
+margin_right = 192.0
+margin_bottom = 512.0
+custom_fonts/font = SubResource( 2 )
+
+[node name="Button7,3" type="Button" parent="."]
+margin_left = 192.0
+margin_top = 448.0
+margin_right = 256.0
+margin_bottom = 512.0
+custom_fonts/font = SubResource( 2 )
+
+[node name="Button7,4" type="Button" parent="."]
+margin_left = 256.0
+margin_top = 448.0
+margin_right = 320.0
+margin_bottom = 512.0
+custom_fonts/font = SubResource( 2 )
+
+[node name="Button7,5" type="Button" parent="."]
+margin_left = 320.0
+margin_top = 448.0
+margin_right = 384.0
+margin_bottom = 512.0
+custom_fonts/font = SubResource( 2 )
+
+[node name="Button7,6" type="Button" parent="."]
+margin_left = 384.0
+margin_top = 448.0
+margin_right = 448.0
+margin_bottom = 512.0
+custom_fonts/font = SubResource( 2 )
+
+[node name="Button7,7" type="Button" parent="."]
+margin_left = 448.0
+margin_top = 448.0
+margin_right = 512.0
+margin_bottom = 512.0
+custom_fonts/font = SubResource( 2 )
+
+[node name="Label" type="Label" parent="."]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_top = 224.0
+margin_right = 512.0
+margin_bottom = 288.0
+text = "Clear!"
+align = 1
+valign = 1
+
+[node name="AudioButtonPush1" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource( 3 )
+volume_db = 24.0
+
+[node name="AudioButtonPush2" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource( 4 )
+volume_db = 24.0
+
+[node name="AudioGameClear" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource( 5 )
+volume_db = 24.0
+
+[node name="AudioGameOver" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource( 6 )
+volume_db = 24.0
+[connection signal="pressed" from="Button0,0" to="." method="_on_Button_pressed" binds= [ Vector2( 0, 0 ) ]]
+[connection signal="pressed" from="Button0,1" to="." method="_on_Button_pressed" binds= [ Vector2( 1, 0 ) ]]
+[connection signal="pressed" from="Button0,2" to="." method="_on_Button_pressed" binds= [ Vector2( 2, 0 ) ]]
+[connection signal="pressed" from="Button0,3" to="." method="_on_Button_pressed" binds= [ Vector2( 3, 0 ) ]]
+[connection signal="pressed" from="Button0,4" to="." method="_on_Button_pressed" binds= [ Vector2( 4, 0 ) ]]
+[connection signal="pressed" from="Button0,5" to="." method="_on_Button_pressed" binds= [ Vector2( 5, 0 ) ]]
+[connection signal="pressed" from="Button0,6" to="." method="_on_Button_pressed" binds= [ Vector2( 6, 0 ) ]]
+[connection signal="pressed" from="Button0,7" to="." method="_on_Button_pressed" binds= [ Vector2( 7, 0 ) ]]
+[connection signal="pressed" from="Button1,0" to="." method="_on_Button_pressed" binds= [ Vector2( 0, 1 ) ]]
+[connection signal="pressed" from="Button1,1" to="." method="_on_Button_pressed" binds= [ Vector2( 1, 1 ) ]]
+[connection signal="pressed" from="Button1,2" to="." method="_on_Button_pressed" binds= [ Vector2( 2, 1 ) ]]
+[connection signal="pressed" from="Button1,3" to="." method="_on_Button_pressed" binds= [ Vector2( 3, 1 ) ]]
+[connection signal="pressed" from="Button1,4" to="." method="_on_Button_pressed" binds= [ Vector2( 4, 1 ) ]]
+[connection signal="pressed" from="Button1,5" to="." method="_on_Button_pressed" binds= [ Vector2( 5, 1 ) ]]
+[connection signal="pressed" from="Button1,6" to="." method="_on_Button_pressed" binds= [ Vector2( 6, 1 ) ]]
+[connection signal="pressed" from="Button1,7" to="." method="_on_Button_pressed" binds= [ Vector2( 7, 1 ) ]]
+[connection signal="pressed" from="Button2,0" to="." method="_on_Button_pressed" binds= [ Vector2( 0, 2 ) ]]
+[connection signal="pressed" from="Button2,1" to="." method="_on_Button_pressed" binds= [ Vector2( 1, 2 ) ]]
+[connection signal="pressed" from="Button2,2" to="." method="_on_Button_pressed" binds= [ Vector2( 2, 2 ) ]]
+[connection signal="pressed" from="Button2,3" to="." method="_on_Button_pressed" binds= [ Vector2( 3, 2 ) ]]
+[connection signal="pressed" from="Button2,4" to="." method="_on_Button_pressed" binds= [ Vector2( 4, 2 ) ]]
+[connection signal="pressed" from="Button2,5" to="." method="_on_Button_pressed" binds= [ Vector2( 5, 2 ) ]]
+[connection signal="pressed" from="Button2,6" to="." method="_on_Button_pressed" binds= [ Vector2( 6, 2 ) ]]
+[connection signal="pressed" from="Button2,7" to="." method="_on_Button_pressed" binds= [ Vector2( 7, 2 ) ]]
+[connection signal="pressed" from="Button3,0" to="." method="_on_Button_pressed" binds= [ Vector2( 0, 3 ) ]]
+[connection signal="pressed" from="Button3,1" to="." method="_on_Button_pressed" binds= [ Vector2( 1, 3 ) ]]
+[connection signal="pressed" from="Button3,2" to="." method="_on_Button_pressed" binds= [ Vector2( 2, 3 ) ]]
+[connection signal="pressed" from="Button3,3" to="." method="_on_Button_pressed" binds= [ Vector2( 3, 3 ) ]]
+[connection signal="pressed" from="Button3,4" to="." method="_on_Button_pressed" binds= [ Vector2( 4, 3 ) ]]
+[connection signal="pressed" from="Button3,5" to="." method="_on_Button_pressed" binds= [ Vector2( 5, 3 ) ]]
+[connection signal="pressed" from="Button3,6" to="." method="_on_Button_pressed" binds= [ Vector2( 6, 3 ) ]]
+[connection signal="pressed" from="Button3,7" to="." method="_on_Button_pressed" binds= [ Vector2( 7, 3 ) ]]
+[connection signal="pressed" from="Button4,0" to="." method="_on_Button_pressed" binds= [ Vector2( 0, 4 ) ]]
+[connection signal="pressed" from="Button4,1" to="." method="_on_Button_pressed" binds= [ Vector2( 1, 4 ) ]]
+[connection signal="pressed" from="Button4,2" to="." method="_on_Button_pressed" binds= [ Vector2( 2, 4 ) ]]
+[connection signal="pressed" from="Button4,3" to="." method="_on_Button_pressed" binds= [ Vector2( 3, 4 ) ]]
+[connection signal="pressed" from="Button4,4" to="." method="_on_Button_pressed" binds= [ Vector2( 4, 4 ) ]]
+[connection signal="pressed" from="Button4,5" to="." method="_on_Button_pressed" binds= [ Vector2( 5, 4 ) ]]
+[connection signal="pressed" from="Button4,6" to="." method="_on_Button_pressed" binds= [ Vector2( 6, 4 ) ]]
+[connection signal="pressed" from="Button4,7" to="." method="_on_Button_pressed" binds= [ Vector2( 7, 4 ) ]]
+[connection signal="pressed" from="Button5,0" to="." method="_on_Button_pressed" binds= [ Vector2( 0, 5 ) ]]
+[connection signal="pressed" from="Button5,1" to="." method="_on_Button_pressed" binds= [ Vector2( 1, 5 ) ]]
+[connection signal="pressed" from="Button5,2" to="." method="_on_Button_pressed" binds= [ Vector2( 2, 5 ) ]]
+[connection signal="pressed" from="Button5,3" to="." method="_on_Button_pressed" binds= [ Vector2( 3, 5 ) ]]
+[connection signal="pressed" from="Button5,4" to="." method="_on_Button_pressed" binds= [ Vector2( 4, 5 ) ]]
+[connection signal="pressed" from="Button5,5" to="." method="_on_Button_pressed" binds= [ Vector2( 5, 5 ) ]]
+[connection signal="pressed" from="Button5,6" to="." method="_on_Button_pressed" binds= [ Vector2( 6, 5 ) ]]
+[connection signal="pressed" from="Button5,7" to="." method="_on_Button_pressed" binds= [ Vector2( 7, 5 ) ]]
+[connection signal="pressed" from="Button6,0" to="." method="_on_Button_pressed" binds= [ Vector2( 0, 6 ) ]]
+[connection signal="pressed" from="Button6,1" to="." method="_on_Button_pressed" binds= [ Vector2( 1, 6 ) ]]
+[connection signal="pressed" from="Button6,2" to="." method="_on_Button_pressed" binds= [ Vector2( 2, 6 ) ]]
+[connection signal="pressed" from="Button6,3" to="." method="_on_Button_pressed" binds= [ Vector2( 3, 6 ) ]]
+[connection signal="pressed" from="Button6,4" to="." method="_on_Button_pressed" binds= [ Vector2( 4, 6 ) ]]
+[connection signal="pressed" from="Button6,5" to="." method="_on_Button_pressed" binds= [ Vector2( 5, 6 ) ]]
+[connection signal="pressed" from="Button6,6" to="." method="_on_Button_pressed" binds= [ Vector2( 6, 6 ) ]]
+[connection signal="pressed" from="Button6,7" to="." method="_on_Button_pressed" binds= [ Vector2( 7, 6 ) ]]
+[connection signal="pressed" from="Button7,0" to="." method="_on_Button_pressed" binds= [ Vector2( 0, 7 ) ]]
+[connection signal="pressed" from="Button7,1" to="." method="_on_Button_pressed" binds= [ Vector2( 1, 7 ) ]]
+[connection signal="pressed" from="Button7,2" to="." method="_on_Button_pressed" binds= [ Vector2( 2, 7 ) ]]
+[connection signal="pressed" from="Button7,3" to="." method="_on_Button_pressed" binds= [ Vector2( 3, 7 ) ]]
+[connection signal="pressed" from="Button7,4" to="." method="_on_Button_pressed" binds= [ Vector2( 4, 7 ) ]]
+[connection signal="pressed" from="Button7,5" to="." method="_on_Button_pressed" binds= [ Vector2( 5, 7 ) ]]
+[connection signal="pressed" from="Button7,6" to="." method="_on_Button_pressed" binds= [ Vector2( 6, 7 ) ]]
+[connection signal="pressed" from="Button7,7" to="." method="_on_Button_pressed" binds= [ Vector2( 7, 7 ) ]]

@@ -32,12 +32,13 @@ func check_cells():
 			if cells[y][x] == 0:
 				continue
 			for i in dir:
-				if y+i.y < 0 || height <= y+i.y \
-				 || x+i.x < 0 || width <= x+i.x:
-					continue
-				if cells[y+i.y][x+i.x] == 1:
-					$AudioGameOver.play()
-					return "Game Over!"
+				for j in range(1, 8):
+					if y+(i.y*j) < 0 || height <= y+(i.y*j) \
+				 	|| x+(i.x*j) < 0 || width <= x+(i.x*j):
+						continue
+					if cells[y+(i.y*j)][x+(i.x*j)] == 1:
+						$AudioGameOver.play()
+						return "Game Over!"
 	$AudioGameClear.play()
 	return "Game Clear!"
 
